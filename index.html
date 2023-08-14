@@ -2,600 +2,278 @@
 <html>
 
 <head>
-    <title>Vanakkam</title>
+    <title>K S Traders</title>
     <link rel="stylesheet" href="ks.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cd0926e4f6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#"><img src="https://i.ibb.co/F4snw93/10x10-logo-copy-2.jpg" class="logo"/></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link " id="navItem1" href="#">Products</a>
-          <a class="nav-link " id="navItem2" href="#">About us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.ibb.co/F4snw93/10x10-logo-copy-2.jpg" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcusection">
+                        Why Choose Us ?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#psection" id="navItem2">Products</a>
+                    <a class="nav-link" href="#ausection" id="navItem3">About us</a>
+                    <a class="nav-link" href="#fusection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <div id="sectionhome" class="container">
-        <div class="row">
-            <div class="col-12">
-                <img src="https://img.freepik.com/free-photo/my-bed-is-my-best-friend_329181-10418.jpg?w=740&t=st=1686997158~exp=1686997758~hmac=f6bae5a1dca4fe73b1661fe9085ff2179dab75d887f3b22e6bfb55acfd634635" class="first-img" />
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center d-flex flex-column justify-content-end">
-                    <div class="card-home">
-                        <h1 class="home-head">Ks Pillows</h1>
-                        <p class="home-para">Enter Into The Comfort World</p>
-                        <button class="btn btn-primary button-home" onclick="display('sectionproducts')">View Products</button>
+    <div class="banner-section-bg-container d-flex  flex-column justify-content-center ">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Get Into The comfort World </h1>
+            <p class="banner-caption mb-4">Bed TIME<br>
+                Good TIME</p>
+            <button class="custom-button">View Products</button>
+            <button class="custom-outline-button">Order Now</button>
+        </div>
+    </div>
+
+
+    <div class="wcu-section pt-5 pb-5" id="wcusection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                    <p class="wcu-section-description">
+                        We have both Kapok & Recron Pillows and Mattresses.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://i.ibb.co/KsTx6GW/image.png" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Comfort</h1>
+                        <p class="wcu-card-description">
+                            Experience the most comfort sleep.The pillow and mattresses are made for all ages and for maximum comfort.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-vector/award-ribbon-check-mark-with-stars-gradient-style_78370-1098.jpg?size=626&ext=jpg&ga=GA1.2.669700858.1686997136&semt=sph" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Quality</h1>
+                        <p class="wcu-card-description">
+                            The Quality of kapok and recron pillows and mattresses are Trustable. All products are striched by hand Orginal Ilavam panju and Pure cotton ,We never compramise on quality.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://img.freepik.com/premium-vector/100-natural-food-badge-eco-nature-green-icon-product-label-logo-vector_690789-129.jpg?size=626&ext=jpg&ga=GA1.2.669700858.1686997136&semt=ais" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">100% PURE</h1>
+                        <p class="wcu-card-description">
+                            The Pillow and Mattresses are made up of
+                            <span class="offers">Kapok (ILAVAM PANJU)</span>
+                            and <span class="offers">Cotton Fabric</span> 100% Pure Organic and Natural..
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="sectionproducts" class="container bg ">
-        <div class="row">
 
-            <div id="carouselExampleIndicators" class="carousel slide crel" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://img.freepik.com/free-photo/pillows-white-background_93675-131053.jpg?w=740&t=st=1687067766~exp=1687068366~hmac=fa9aca2d9566daede1f4ffdf994eb968591846097f241f35f1e54b7912976a7c" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/free-photo/floral-cushion-home-decor-sofa_53876-128215.jpg?w=740&t=st=1687067871~exp=1687068471~hmac=e50b6adccf94b9ffe817d8a15ae21d4555839923f1c45ad4c3d0e8ca7c6b5c0c" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/free-photo/beautiful-asian-woman-casual-dress-sleep-well-white-bed-daylight-morning-time_609648-1870.jpg?w=740&t=st=1687068501~exp=1687069101~hmac=b30cb5a7cb819e589f99498f8f1c5960cb7471eeef76fc031791f2dfa9ce6ada" class="d-block w-100" alt="..." />
+    <div class="product-section" id="psection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="product-section-heading">
+                        Products
+                    </h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card p-3">
+                        <img src="https://i.ibb.co/pznjFd0/Whats-App-Image-2023-07-13-at-10-51-56-AM.jpg" class="product-card-image" />
+                        <h1 class="product-card-heading">
+                            Kapok (ILAVAM PANJU) Pillows
+                        </h1>
+                        <a href="#" class="product-link">View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <div class="pil col-12">
-                <h1 class="txt" onclick="display('sectionpillow')">PILLOWS >></h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div id="carouselExampleIndicator" class="carousel slide crel" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicator" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicator" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicator" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://img.freepik.com/free-vector/modern-bedroom-realistic-design_1284-14513.jpg?size=626&ext=jpg&ga=GA1.1.669700858.1686997136&semt=sph" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/free-photo/lazy-morning-weekend-smiling-brunette-model-girl-wide-bed-with-white-bed-clothes-hotel-fashion-apartment_231208-5038.jpg?size=626&ext=jpg&ga=GA1.1.669700858.1686997136&semt=ais" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/free-vector/double-mattress-realistic-style_1284-16866.jpg?w=740&t=st=1687068611~exp=1687069211~hmac=2014c47d24085fbf226f2cf3b5eec8c26107c72f45e4348ba8cd661e4ba538dd" class="d-block w-100" alt="..." />
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card p-3">
+                        <img src="https://i.ibb.co/w00mV9B/re.webp" class="product-card-image" />
+                        <h1 class="product-card-heading">
+                            Recron Pillows
+                        </h1>
+                        <a href="#" class="product-link">View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicator" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicator" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <div class="mat col-12">
-                <h1 class="txt" onclick="display('sectionmat')">MATRESSES >></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <button class="btn btn-danger button-products" onclick="display('sectionhome')">Back</button>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card p-3">
+                        <img src="https://i.ibb.co/1zstwJt/Whats-App-Image-2023-07-14-at-11-04-21-AM.jpg" class="product-card-image" />
+                        <h1 class="product-card-heading">
+                            Cotton Pillows
+                        </h1>
+                        <a href="#" class="product-link">View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card p-3">
+                        <img src="https://i.ibb.co/3MDg07k/Whats-App-Image-2023-07-13-at-11-36-10-AM.jpg" class="product-card-image" />
+                        <h1 class="product-card-heading">
+                            Kapok (ILAVAM PANJU) Mattressess
+                        </h1>
+                        <a href="#" class="product-link">View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="bg-container-flats container" id="sectionpillow">
-        <div class="row">
-            <h1 class="flats-head"> PILLOWS..</h1>
+
+    <div class="healthy-food-section pt-5 pb-5" id="hfsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://img.freepik.com/free-vector/pure-natural-organic-label-badge_1017-26210.jpg?w=740&t=st=1689535769~exp=1689536369~hmac=39935cade4d88f97555e847e22b56cd81455fd0878572bf5446076236f0eea68" class="healthy-food-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="healthy-food-section-heading">
+                        Organic
+                    </h1>
+                    <p class="healthy-food-section-description">
+                        Kapok is a silk-like fiber that provides a soft yet supportive fluffy feel. It is lighter than cotton and does not compress as quickly as cotton, wool, or down.
+                        Non-toxic – Because the kapok fibers are naturally found in the rainforest and harvested from wild trees, they are not treated with any added chemicals, toxins, or pesticides. They are naturally healthy for human use.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class=" flat-card d-flex flex-row" onclick="display('sectionkapok')">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CYOCu24-doQgbKkXo92Nn8lSKLig9eY8Fw&usqp=CAU" class="flat-image" />
+    </div>
+
+
+    <div class="delivery-and-payment-section pt-5 pb-5" id="dapsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 order-md-2">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" alt="" class="delivery-and-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Delivery and Payment
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                        We are producers of pillows and mattresses, and we offer wholesale and retail shipping throughout India. We send packages using a nearby parcel delivery service, and we offer free delivery for orders of more than 5 pieces.
+                    </p>
+                    <button class="custom-button">Order Now</button>
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="thanking-customers-section pt-5 pb-5" id="tcsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thanking-customers-section-heading">
+                        Thank you for being a valuable customer to us.
+                    </h1>
+                    <p class="thanking-customers-section-description">
+                        We have a surprise gift for you
+                    </p>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img d-md-none" />
                     <div>
-                        <h1 class="flat-card-head">Ilavam Panju (KAPOK)</h1>
-                        <p class="flat-card-para">When using our Pure Kapok Silk cotton ilavam panju goods, Reducing stress on all of your muscles and joints. These Pillows are free of toxic substances and chemical odours.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">KS Gift Code</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span style="font-weight:bold;">KSPILLOWS2002</span> Send this code to our whatsapp number on follow us section and claim your 15% Offer on every products.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img d-md-inline d-none" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="follow-us-section pt-5 pb-5" id="fusection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="icon-section">
+                            <i class="fa-brands icons-image fa-whatsapp" style="color: #1df753;"></i>
+                        </div>
+                        <div class="icon-section">
+                            <i class="fa-brands icons-image fa-facebook" style="color: #1d1aff;"></i>
+                        </div>
+                        <div class="icon-section">
+                            <i class="fa-brands icons-image fa-instagram" style="color: #f50a0a;"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class=" flat-card d-flex flex-row" onclick="display('sectionrecron')">
-                    <img src="https://img1.exportersindia.com/product_images/bc-small/2022/5/8964422/recron-fiber-1651654884-6321996.jpeg" class="flat-image" />
-                    <div>
-                        <h1 class="flat-card-head">Recron </h1>
-                        <p class="flat-card-para">High-quality fabrics like velvet, polycotton, polyester, and others are used to make Recron pillows. Microfibre is used as the filler by them.</p>
-                    </div>
+    </div>
+
+    <div class="footer-section pt-5 pb-5" id="fsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://i.ibb.co/F4snw93/10x10-logo-copy-2.jpg" class="logo" />
+                    <h1 class="footer-section-mail-id">kspillows1@gmail.com</h1>
+                    <p class="footer-section-address">
+                        3/1377 , Telungu Street , Dharasuram , Kumbakonam , Tamil Nadu , India.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class=" flat-card d-flex flex-row " onclick="display('sectioncotton')">
-                    <img src="https://cdn.britannica.com/95/129395-050-9BAE0189/Close-up-cotton-plant.jpg" class="flat-image" />
-                    <div>
-                        <h1 class="flat-card-head">Paruthi (Cotton)</h1>
-                        <p class="flat-card-para">High-quality fabrics like velvet, polycotton, polyester, and others are used to make Recron pillows. Microfibre is used as the filler by them.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="btn button-pil" onclick="display('sectionproducts')">Back</button>
     </div>
-    <div class="bg-container-flats" id="sectionmat">
-        <h1 class="flats-head"> MATRESSES..</h1>
-        <div class=" flat-card d-flex flex-row" onclick="display('sectionsingle')">
-            <img src="https://img.freepik.com/premium-photo/stack-mattresses_268321-89.jpg?w=740" class="flat-image" />
-            <div>
-                <h1 class="flat-card-head">Single</h1>
-                <p class="flat-card-para">When using our Pure Kapok Silk cotton ilavam panju goods, your spine will be properly aligned and supported while you sleep, safeguarding your body and reducing stress on all of your muscles and joints. These Pillows are free of toxic substances and chemical odours.</p>
-            </div>
-        </div>
-        <div class=" flat-card d-flex flex-row" onclick="display('sectiondouble')">
-            <img src="https://img.freepik.com/premium-photo/mattresses-two-single-isolated-white-background-3d-illustration_771335-16387.jpg?w=900" class="flat-image" />
-            <div>
-                <h1 class="flat-card-head">Double</h1>
-                <p class="flat-card-para">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack.Its built-up area is about 1600sq.ft A spacious home for you to live in.</p>
-            </div>
-        </div>
-        <div class=" flat-card d-flex flex-row " onclick="display('sectionqueen')">
-            <img src="https://img.freepik.com/free-vector/double-mattress-realistic-style_1284-16866.jpg?w=740&t=st=1687063917~exp=1687064517~hmac=3b3c6c4260954955979ec9ed2928ea133e110aefa63058a75f6e5a9f7f43db83" class="flat-image" />
-            <div>
-                <h1 class="flat-card-head">Queen</h1>
-                <p class="flat-card-para">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack.Its built-up area is about 1600sq.ft A spacious home for you to live in.</p>
-            </div>
-        </div>
-        <div class=" flat-card d-flex flex-row " onclick="display('sectionking')">
-            <img src="https://img.freepik.com/free-psd/double-bed-with-wooden-frame-white-sheets-isolated_176382-170.jpg?w=826&t=st=1687064138~exp=1687064738~hmac=3cfd3cc5fc1a2cb2486bda8726057f1e6c6498def3fcd498148d5ccc170630d0" class="flat-image" />
-            <div>
-                <h1 class="flat-card-head">King</h1>
-                <p class="flat-card-para">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack.Its built-up area is about 1600sq.ft A spacious home for you to live in.</p>
-            </div>
-        </div>
-        <button class="btn button-home" onclick="display('sectionproducts')">Back</button>
-    </div>
-
-
-    <div id="sectionkapok">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://i.ibb.co/5sV34t9/Whats-App-Image-2023-05-31-at-2-01-54-AM.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://i.ibb.co/C2tKb05/Whats-App-Image-2023-05-31-at-2-31-26-AM.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://i.ibb.co/5sV34t9/Whats-App-Image-2023-05-31-at-2-01-54-AM.jpg" class="d-block w-100" alt="..." />
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <div class="bg-container-flats">
-            <p class="product-name">Organic Ilavam panju(KAPOK) Floral Sleeping Pillow(Multicolor)..</p>
-            <h1 class="description-head">Rs 399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionK')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">Kapok Pillows are soft & comfortable.They provide the proper alignment and support while sleeping.These Pillows are devoid of harmful chemicals and chemical odour.The fiber is very soft and has no allergens.It is both moisture and dust mite-resistant.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Pillow</li>
-                <li>Filling Material : 100% pure Kapok(ilavam panju)</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 16x26(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room,Living Room</li>
-                <li>**You will receive the goods along with the sample of filling material**</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionpillow')">Back</button>
-        </div>
-    </div>
-
-    <div id="sectionrecron">
-        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="description-image" />
-
-        <div class="bg-container-flats">
-            <p class="product-name">Recron Ks bed time pillow..</p>
-            <h1 class="description-head">Rs 399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionR')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">Recron pillows from the house of KS Pillows are created to provide extra neck support and comfort for a dreamy sleep.These pillows are composed of high-quality, breathable fabric, which has virgin recron fibre that gives it plushness and durability.These pillows could be adjusted to fit your neck, providing the great levels of comfort and restful sleep.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Pillow</li>
-                <li>Filling Material : Recron</li>
-                <li>External Material : Polycotton</li>
-                <li>Size : 16x26(inches)</li>
-                <li>Colours :White,Blue,Pink</li>
-                <li>Suitable Location: Bed Room,Living Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionpillow')">Back</button>
-        </div>
-
-    </div>
-
-    <div id="sectioncotton">
-        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="description-image" />
-
-        <div class="bg-container-flats">
-            <p class="product-name">Solid cotton filled Sleeping Pillows</p>
-            <h1 class="description-head">Rs 149/-</h1>
-            <button class="btn button-buy" onclick="display('sectionC')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">These have the advantage of drying quickly and more comfortable. cotton pillow is most benefitting. These pillows are made of cotton, which naturally has the ability to absorb moisture. The oils from your skin and hair are known to be absorbed by cotton pillows, which can leave them dry, brittle, and prone to breakage.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Pillow</li>
-                <li>Filling Material : 100% cotton</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 16x26(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room,Living Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionpillow')">Back</button>
-        </div>
-
-    </div>
-
-    <div id="sectionsingle">
-        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="description-image" />
-
-        <div class="bg-container-flats">
-            <p class="product-name">Organic Ilavam panju(KAPOK) Floral Sleeping Mattresses(Multicolor)..</p>
-            <h1 class="description-head">Rs 5399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionMS')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">Kapok Mattresses are soft & comfortable.They provide the proper alignment and support while sleeping.These Mattresses are devoid of harmful chemicals and chemical odour.The fiber is very soft and has no allergens.It is both moisture and dust mite-resistant.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Mattresses</li>
-                <li>Filling Material : 100% pure Kapok(ilavam panju)</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 36x75(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionmat')">Back</button>
-        </div>
-
-    </div>
-
-    <div id="sectiondouble">
-        <img src="https://img.freepik.com/premium-photo/mattresses-two-single-isolated-white-background-3d-illustration_771335-16387.jpg?w=900" class="description-image" />
-
-        <div class="bg-container-flats">
-            <p class="product-name">Organic Ilavam panju(KAPOK) Floral Sleeping Mattresses(Multicolor)..</p>
-            <h1 class="description-head">Rs 7399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionMD')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">Kapok Mattresses are soft & comfortable.They provide the proper alignment and support while sleeping.These Mattresses are devoid of harmful chemicals and chemical odour.The fiber is very soft and has no allergens.It is both moisture and dust mite-resistant.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Pillow</li>
-                <li>Filling Material : 100% pure Kapok(ilavam panju)</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 48x75(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionmat')">Back</button>
-        </div>
-    </div>
-
-    <div id="sectionqueen">
-        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="description-image" />
-
-        <div class="bg-container-flats">
-            <p class="product-name">Organic Ilavam panju(KAPOK) Floral Sleeping Mattresses(Multicolor)..</p>
-            <h1 class="description-head">Rs 9399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionMQ')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para">Kapok Mattresses are soft & comfortable.They provide the proper alignment and support while sleeping.These Mattresses are devoid of harmful chemicals and chemical odour.The fiber is very soft and has no allergens.It is both moisture and dust mite-resistant.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Pillow</li>
-                <li>Filling Material : 100% pure Kapok(ilavam panju)</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 60x75(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room,Living Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionmat')">Back</button>
-        </div>
-    </div>
-
-    <div id="sectionking">
-        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="description-image" />
-        <div class="bg-container-flats">
-            <p class="product-name">Organic Ilavam panju(KAPOK) Floral Sleeping Mattresses(Multicolor)..</p>
-            <h1 class="description-head">Rs 11399/-</h1>
-            <button class="btn button-buy" onclick="display('sectionMK')">Buy Now</button>
-            <h1 class="description-title">Description:</h1>
-            <p class="description-para ">Kapok Mattresses are soft & comfortable.They provide the proper alignment and support while sleeping.These Mattresses are devoid of harmful chemicals and chemical odour.The fiber is very soft and has no allergens.It is both moisture and dust mite-resistant.</p>
-            <h1 class="description-title">Specification:</h1>
-            <ul class="description-para">
-                <li>Net Quantity: 1</li>
-                <li>Type : Sleeping Mattresses</li>
-                <li>Filling Material : 100% pure Kapok(ilavam panju)</li>
-                <li>External Material : 100% cotton</li>
-                <li>Size : 72x75(inches)</li>
-                <li>Pattern : Floral</li>
-                <li>Suitable Location: Bed Room</li>
-            </ul>
-            <h1 class="description-title">Dimensions:</h1>
-            <div class="description-para">
-                <p>Width: <br />
-                    Length: <br />
-                    Depth: <br />
-                    Weight: <br />
-                </p>
-            </div>
-            <button class="btn button-back" onclick="display('sectionmat')">Back</button>
-        </div>
-    </div>
-
-    <div id="sectionK" class="buynow text-center">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectionkapok')">Back</button>
-
-
-    </div>
-    <div id="sectionR" class="buynow text-center">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectionrecron')">Back</button>
-
-
-    </div>
-    <div id="sectionC" class="buynow text-center ">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectioncotton')">Back</button>
-
-
-    </div>
-    <div id="sectionMS" class="buynow text-center">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectionsingle')">Back</button>
-
-
-    </div>
-    <div id="sectionMD" class="buynow">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectiondouble')">Back</button>
-
-
-    </div>
-    <div id="sectionMQ" class="buynow">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectionqueen')">Back</button>
-
-
-    </div>
-    <div id="sectionMK" class="buynow">
-        <p class="buy">FOR ORDER...CALL<br />
-            +91 9786571017<br />
-            +91 9943723279<br />
-            +91 6369462210<br />
-        </p>
-        <h1>..OR..</h1>
-        <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?w=740&t=st=1687079736~exp=1687080336~hmac=3d7af924fc5d7a8da41acf5d0f9859aad9b63e44ef106766a864fd02928a0f6e" class="what" />
-        <p class="buy">WHATSAPP...<br />
-            +91 9786571017<br />
-            +91 6369462210<br />
-        </p>
-        <h1>For Offline shopping..<br />
-            Visit..<br />
-
-        </h1>
-        <p class="buy">
-            3/1377,Darasuram,Kumbakonam(612702)
-        </p>
-        <button class="btn button-back" onclick="display('sectionking')">Back</button>
-
-
-    </div>
-    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
 
 </html>
