@@ -1,207 +1,281 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-.logo{
-    height: 80px;
-    width: 90px;
-}
-#navItem1{
-    color: #323f4b;
-    font-family: "Roboto";
-}
-#navItem2{
-    color: #323f4b;
-    font-family: "Roboto";
-}
-.first-img {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-    width: 87vw;
-    height: 50vh;
-}
-
-.card-home {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.home-head {
-    color: #FF0000;
-    font-family: 'Bree Serif';
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.home-para {
-    font-family: 'Bree Serif';
-    color: #6c6b70;
-    font-size: 25px;
-}
-
-.button-home {
-    color: #ffffff;
-    font-size: 20px;
-    background-color: #FF0000;
-    height: 40px;
-    width: 170px;
-    font-weight: bold;
-}
-
-.button-pil {
-    color: #ffffff;
-    font-size: 16px;
-    background-color: #FF0000;
-    height: 30px;
+.logo {
     width: 80px;
-    font-weight: bold;
+    height: 70px;
 }
 
-.button-products {
-    color: #ffffff;
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/pillows-stack-toning_1220-1771.jpg?w=360&t=st=1689097512~exp=1689098112~hmac=eef513e7086e11966838d81b30adce402c029b4ba99904600fbc9d2cb5ce6c5f");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #183b56;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.product-section {
+    background-color: white;
+}
+
+.product-section-heading {
+    color: #183b56;
+    font-weight: 700;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.product-card {
+
+    margin-top: 30px;
+}
+
+.product-card-image {
+    border-radius: 16px;
+    width: 100%;
+    height: 240px;
+
+}
+
+.product-card-heading {
+    color: #343f4b;
+    font-weight: 500;
     font-size: 18px;
-    background-color: #FF0000;
-    height: 40px;
+    font-family: "Roboto";
+    margin-top: 24px;
+}
+
+.product-link {
+    color: #d0b200;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto";
+
+}
+
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #d0b200;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fcf4bb, #ffecb8);
+}
+
+.thanking-customers-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
     font-weight: bold;
-    width: 100px;
+    font-size: 16px;
     margin-top: 20px;
 }
 
-.bg-container-flats {
-    padding: 15px;
-    background-image: url('https://img.freepik.com/free-vector/blue-polygonal-shapes-background_1053-434.jpg?w=740&t=st=1687091198~exp=1687091798~hmac=2a234da65b1d97211ee72474b5f481bb119808ece9b1d82c21edfc7707bd2ace');
-    background-size: cover;
-}
-
-.flats-head {
-    color: #FF0000;
-    font-family: 'Bree Serif';
-    font-size: 35px;
-}
-
-.flat-image {
-    height: 120px;
-    width: 100px;
-    margin-right: 15px;
-    border-radius: 5px;
-}
-
-.flat-card-head {
-    color: black;
-    font-family: 'Bree Serif';
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.flat-card-para {
-    color: white;
-    font-family: 'Bree Serif';
-    font-size: 12px;
-}
-
-.flat-card {
-    padding: 10px;
-    margin: 3px;
-    border-radius: 10px;
-    background-color: #46C7C7;
-}
-
-.description-image {
-    height: 300px;
-}
-
-.product-name {
-    color: black;
-    font-family: "robotto";
-    font-weight: bold;
-}
-
-.description-head {
-    margin: 15px;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 25px;
-    font-family: 'Bree Serif';
-    font-weight: bold;
-}
-
-.description-title {
-    color: #FF0000;
-    font-family: 'Bree Serif';
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.description-para {
-    color: black;
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
     font-size: 14px;
 }
 
-.button-back {
-    color: #ffffff;
-    font-size: 13px;
-    background-color: #FF0000;
-    height: 25px;
-    width: 100px;
-    font-weight: bold;
+.icon-section {
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
     margin: 15px;
+    background-color: #f7ffcc;
 }
 
-.bg {
-    background-image: url('https://img.freepik.com/free-vector/blue-polygonal-shapes-background_1053-434.jpg?w=740&t=st=1687091198~exp=1687091798~hmac=2a234da65b1d97211ee72474b5f481bb119808ece9b1d82c21edfc7707bd2ace');
-    background-size: cover;
-    padding: 50px;
-}
-
-.txt {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.crel {
-    height: 20vh;
-    width: 60vw;
-}
-
-.mat {
-
-    color: #FF0000;
-    margin-top: 50px;
-    font-weight: bold;
-    font-family: "Sans-Serif";
-
-}
-
-.pil {
-    font-weight: bold;
-    font-family: "Sans-Serif";
-    color: #FF0000;
-    margin-top: 50px;
-
-}
-
-.what {
-    height: 40px;
-    width: 40px;
-}
-
-.buy {
-    font-family: 'robotto';
-    font-weight: bold;
-    font-style: italic;
-}
-
-.buynow {
-    background-position: left;
-    background-size: cover;
-    width: 100vw;
-    background-image: url('https://img.freepik.com/free-vector/blue-polygonal-shapes-background_1053-434.jpg?w=740&t=st=1687091198~exp=1687091798~hmac=2a234da65b1d97211ee72474b5f481bb119808ece9b1d82c21edfc7707bd2ace');
-}
-
-.button-buy {
-    color: #ffffff;
-    font-size: 17px;
-    background-color: #FF0000;
-    height: 35px;
-    width: 120px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.icons-image {
+    font-size: 35px;
 }
